@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/pack.mcmeta"],
+      "url": "https://json.schemastore.org/minecraft-pack-mcmeta.json"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "markdownlint.config": {
+    "MD033": false, // no-inline-html
+  }
+}

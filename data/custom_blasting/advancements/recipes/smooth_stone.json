@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:stone" }]
+      }
+    }
+  },
+  "requirements": [["has_stone"]],
+  "rewards": {
+    "recipes": ["custom_blasting:smooth_stone"]
+  }
+}

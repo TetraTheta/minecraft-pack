@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:basalt" }]
+      }
+    },
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "tag": "custom_crafting:coals" }]
+      }
+    }
+  },
+  "requirements": [["has_basalt", "has_coal"]],
+  "rewards": {
+    "recipes": ["custom_crafting:blackstone"]
+  }
+}

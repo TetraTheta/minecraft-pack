@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:waxed_weathered_cut_copper" }]
+      }
+    }
+  },
+  "requirements": [["has_stairs"]],
+  "rewards": {
+    "recipes": ["full_block:stairs/waxed_weathered_cut_copper"]
+  }
+}

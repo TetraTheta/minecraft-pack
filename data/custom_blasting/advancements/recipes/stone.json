@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:cobblestone" }]
+      }
+    }
+  },
+  "requirements": [["has_cobblestone"]],
+  "rewards": {
+    "recipes": ["custom_blasting:stone"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:sandstone" }]
+      }
+    },
+    "has_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:red_dye" }]
+      }
+    }
+  },
+  "requirements": [["has_sandstone", "has_dye"]],
+  "rewards": {
+    "recipes": ["universal_dye:red_sandstone"]
+  }
+}

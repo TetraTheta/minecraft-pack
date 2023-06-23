@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:horn_coral" }]
+      }
+    },
+    "has_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:horn_coral_fan" }]
+      }
+    }
+  },
+  "requirements": [["has_coral", "has_fan"]],
+  "rewards": {
+    "recipes": ["custom_crafting:coral_block_horn"]
+  }
+}

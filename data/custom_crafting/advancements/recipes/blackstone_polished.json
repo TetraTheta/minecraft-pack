@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:polished_blackstone" }]
+      }
+    },
+    "has_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "tag": "custom_crafting:coals" }]
+      }
+    }
+  },
+  "requirements": [["has_polished_blackstone", "has_coal"]],
+  "rewards": {
+    "recipes": ["custom_crafting:blackstone_polished"]
+  }
+}

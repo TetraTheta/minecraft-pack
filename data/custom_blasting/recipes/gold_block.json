@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:raw_gold_block"
+  },
+  "result": "minecraft:gold_block",
+  "experience": 7,
+  "cookingtime": 600,
+  "group": "group_smelt"
+}

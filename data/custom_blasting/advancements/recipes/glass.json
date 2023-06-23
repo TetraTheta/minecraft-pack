@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:sand" }]
+      }
+    }
+  },
+  "requirements": [["has_sand"]],
+  "rewards": {
+    "recipes": ["custom_blasting:glass"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:raw_gold" }]
+      }
+    }
+  },
+  "requirements": [["has_raw_gold"]],
+  "rewards": {
+    "recipes": ["custom_blasting:gold_block"]
+  }
+}

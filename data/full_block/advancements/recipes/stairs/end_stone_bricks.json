@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:end_stone_bricks" }]
+      }
+    }
+  },
+  "requirements": [["has_stairs"]],
+  "rewards": {
+    "recipes": ["full_block:stairs/end_stone_bricks"]
+  }
+}

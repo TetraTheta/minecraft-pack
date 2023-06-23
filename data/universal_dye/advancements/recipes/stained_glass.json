@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stained_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "tag": "universal_dye:stained_glass" }]
+      }
+    },
+    "has_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "tag": "universal_dye:dyes" }]
+      }
+    }
+  },
+  "requirements": [["has_stained_glass"], ["has_dye"]],
+  "rewards": {
+    "recipes": [
+      "universal_dye:stained_glass/black_stained_glass",
+      "universal_dye:stained_glass/blue_stained_glass",
+      "universal_dye:stained_glass/brown_stained_glass",
+      "universal_dye:stained_glass/cyan_stained_glass",
+      "universal_dye:stained_glass/gray_stained_glass",
+      "universal_dye:stained_glass/green_stained_glass",
+      "universal_dye:stained_glass/light_blue_stained_glass",
+      "universal_dye:stained_glass/light_gray_stained_glass",
+      "universal_dye:stained_glass/lime_stained_glass",
+      "universal_dye:stained_glass/magenta_stained_glass",
+      "universal_dye:stained_glass/orange_stained_glass",
+      "universal_dye:stained_glass/pink_stained_glass",
+      "universal_dye:stained_glass/purple_stained_glass",
+      "universal_dye:stained_glass/red_stained_glass",
+      "universal_dye:stained_glass/white_stained_glass",
+      "universal_dye:stained_glass/yellow_stained_glass"
+    ]
+  }
+}

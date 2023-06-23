@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["CP", "PC"],
+  "key": {
+    "C": { "tag": "minecraft:coals" },
+    "P": { "item": "minecraft:polished_basalt" }
+  },
+  "result": {
+    "item": "minecraft:polished_blackstone",
+    "count": 4
+  }
+}

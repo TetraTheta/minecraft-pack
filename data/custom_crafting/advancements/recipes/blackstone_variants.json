@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:blackstone" }]
+      }
+    }
+  },
+  "requirements": [["has_blackstone"]],
+  "rewards": {
+    "recipes": [
+      "custom_crafting:blackstone_brewing_stand",
+      "custom_crafting:blackstone_dispenser",
+      "custom_crafting:blackstone_dropper",
+      "custom_crafting:blackstone_lever",
+      "custom_crafting:blackstone_observer",
+      "custom_crafting:blackstone_piston"
+    ]
+  }
+}

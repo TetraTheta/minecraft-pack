@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:yellow_concrete_powder" }]
+      }
+    }
+  },
+  "requirements": [["has_powder"]],
+  "rewards": {
+    "recipes": ["custom_smelting:stained_glass_yellow"]
+  }
+}

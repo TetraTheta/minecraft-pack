@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S", "B"],
+  "key": {
+    "B": { "item": "minecraft:blackstone" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "minecraft:lever",
+    "count": 1
+  }
+}

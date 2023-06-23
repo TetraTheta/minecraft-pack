@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:iron_ingot" }]
+      }
+    },
+    "has_paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:paper" }]
+      }
+    },
+    "has_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:string" }]
+      }
+    }
+  },
+  "requirements": [["has_iron", "has_paper", "has_string"]],
+  "rewards": {
+    "recipes": ["custom_crafting:name_tag"]
+  }
+}

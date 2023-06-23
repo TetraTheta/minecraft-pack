@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:spruce_planks" }]
+      }
+    }
+  },
+  "requirements": [["has_slab"]],
+  "rewards": {
+    "recipes": ["full_block:slabs/spruce_planks"]
+  }
+}

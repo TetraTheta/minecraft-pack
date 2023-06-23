@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:stick" }]
+      }
+    },
+    "has_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:string" }]
+      }
+    },
+    "has_dropper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:dropper" }]
+      }
+    }
+  },
+  "requirements": [["has_stick", "has_string", "has_dropper"]],
+  "rewards": {
+    "recipes": [
+      "custom_crafting:dispenser_alternate",
+      "custom_crafting:dispenser"
+    ]
+  }
+}

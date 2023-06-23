@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["BBB", "B B", "BRB"],
+  "key": {
+    "B": { "item": "minecraft:blackstone" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "item": "minecraft:cobbled_deepslate" }]
+      }
+    }
+  },
+  "requirements": [["has_cobbled_deepslate"]],
+  "rewards": {
+    "recipes": ["custom_blasting:deepslate"]
+  }
+}

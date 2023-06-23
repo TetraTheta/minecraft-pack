@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "tag": "minecraft:coals" }]
+      }
+    }
+  },
+  "requirements": [["has_coals"]],
+  "rewards": {
+    "recipes": ["custom_crafting:dye_black"]
+  }
+}
