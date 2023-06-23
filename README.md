@@ -1,4 +1,4 @@
-# Custom Datapack
+# Custom Minecraft Data Pack
 
 This data pack is designed for personal use.
 
