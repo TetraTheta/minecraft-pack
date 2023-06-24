@@ -4,12 +4,25 @@
     "has_flint": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:flint" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_flint"]],
+  "requirements": [
+    [
+      "has_flint"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:gravel"]
-  }
+    "recipes": [
+      "custom_crafting:gravel"
+    ]
+  },
+  "sends_telemetry_event": false
 }

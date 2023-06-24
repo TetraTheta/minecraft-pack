@@ -4,12 +4,25 @@
     "has_quartz_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:quartz_block" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_block"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_quartz_block"]],
+  "requirements": [
+    [
+      "has_quartz_block"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:quartz"]
-  }
+    "recipes": [
+      "custom_crafting:quartz"
+    ]
+  },
+  "sends_telemetry_event": false
 }

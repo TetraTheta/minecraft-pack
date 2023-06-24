@@ -1,8 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "###", "###"],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "key": {
-    "#": { "tag": "custom_crafting:coral_tube" }
+    "#": {
+      "tag": "custom_crafting:coral_tube"
+    }
   },
   "result": {
     "item": "minecraft:tube_coral_block",

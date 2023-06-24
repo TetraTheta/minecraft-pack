@@ -1,8 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "###", "###"],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "key": {
-    "#": { "tag": "custom_crafting:coral_bubble" }
+    "#": {
+      "tag": "custom_crafting:coral_bubble"
+    }
   },
   "result": {
     "item": "minecraft:bubble_coral_block",

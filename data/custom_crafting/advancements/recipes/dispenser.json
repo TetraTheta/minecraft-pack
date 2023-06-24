@@ -4,27 +4,52 @@
     "has_stick": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:stick" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
       }
     },
     "has_string": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:string" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
       }
     },
     "has_dropper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:dropper" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:dropper"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_stick", "has_string", "has_dropper"]],
+  "requirements": [
+    [
+      "has_stick",
+      "has_string",
+      "has_dropper"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "custom_crafting:dispenser_alternate",
       "custom_crafting:dispenser"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

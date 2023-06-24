@@ -1,8 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["##", "##"],
+  "pattern": [
+    "##",
+    "##"
+  ],
   "key": {
-    "#": { "item": "minecraft:flint" }
+    "#": {
+      "item": "minecraft:flint"
+    }
   },
   "result": {
     "item": "minecraft:gravel",

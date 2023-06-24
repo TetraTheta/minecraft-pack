@@ -4,12 +4,25 @@
     "has_packed_ice": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:packed_ice" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:packed_ice"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_packed_ice"]],
+  "requirements": [
+    [
+      "has_packed_ice"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:ice"]
-  }
+    "recipes": [
+      "custom_crafting:ice"
+    ]
+  },
+  "sends_telemetry_event": false
 }

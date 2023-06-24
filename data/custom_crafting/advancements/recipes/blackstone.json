@@ -4,18 +4,36 @@
     "has_basalt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:basalt" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          }
+        ]
       }
     },
     "has_coal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "tag": "custom_crafting:coals" }]
+        "items": [
+          {
+            "tag": "minecraft:coals"
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_basalt", "has_coal"]],
+  "requirements": [
+    [
+      "has_basalt",
+      "has_coal"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:blackstone"]
-  }
+    "recipes": [
+      "custom_crafting:blackstone"
+    ]
+  },
+  "sends_telemetry_event": false
 }

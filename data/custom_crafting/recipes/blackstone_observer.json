@@ -1,10 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["BBB", "RRQ", "BBB"],
+  "pattern": [
+    "BBB",
+    "RRQ",
+    "BBB"
+  ],
   "key": {
-    "B": { "item": "minecraft:blackstone" },
-    "Q": { "item": "minecraft:quartz" },
-    "R": { "item": "minecraft:redstone" }
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:observer",

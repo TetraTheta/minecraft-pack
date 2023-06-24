@@ -1,12 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "###", "###"],
+  "group": "coral_blocks",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "key": {
-    "#": { "tag": "custom_crafting:coral_brain" }
+    "#": {
+      "tag": "custom_crafting:coral_brain"
+    }
   },
   "result": {
     "item": "minecraft:brain_coral_block",
     "count": 1
-  },
-  "group": "coral_blocks"
+  }
 }

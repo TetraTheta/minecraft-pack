@@ -4,11 +4,21 @@
     "has_blackstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:blackstone" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_blackstone"]],
+  "requirements": [
+    [
+      "has_blackstone"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "custom_crafting:blackstone_brewing_stand",
@@ -18,5 +28,6 @@
       "custom_crafting:blackstone_observer",
       "custom_crafting:blackstone_piston"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

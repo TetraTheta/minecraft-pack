@@ -4,12 +4,23 @@
     "has_coals": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "tag": "minecraft:coals" }]
+        "items": [
+          {
+            "tag": "minecraft:coals"
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_coals"]],
+  "requirements": [
+    [
+      "has_coals"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:dye_black"]
-  }
+    "recipes": [
+      "custom_crafting:dye_black"
+    ]
+  },
+  "sends_telemetry_event": false
 }

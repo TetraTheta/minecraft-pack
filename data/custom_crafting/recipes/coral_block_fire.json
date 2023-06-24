@@ -1,8 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "###", "###"],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "key": {
-    "#": { "tag": "custom_crafting:coral_fire" }
+    "#": {
+      "tag": "custom_crafting:coral_fire"
+    }
   },
   "result": {
     "item": "minecraft:fire_coral_block",

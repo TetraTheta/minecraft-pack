@@ -4,12 +4,25 @@
     "has_blue_ice": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:blue_ice" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_blue_ice"]],
+  "requirements": [
+    [
+      "has_blue_ice"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:ice_packed"]
-  }
+    "recipes": [
+      "custom_crafting:ice_packed"
+    ]
+  },
+  "sends_telemetry_event": false
 }

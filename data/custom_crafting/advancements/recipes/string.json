@@ -4,12 +4,23 @@
     "has_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "tag": "minecraft:wool" }]
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_wool"]],
+  "requirements": [
+    [
+      "has_wool"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:string"]
-  }
+    "recipes": [
+      "custom_crafting:string"
+    ]
+  },
+  "sends_telemetry_event": false
 }

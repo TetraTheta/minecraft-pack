@@ -1,9 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [" R ", "BBB"],
+  "pattern": [
+    " R ",
+    "BBB"
+  ],
   "key": {
-    "B": { "item": "minecraft:blackstone" },
-    "R": { "item": "minecraft:blaze_rod" }
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    }
   },
   "result": {
     "item": "minecraft:brewing_stand",

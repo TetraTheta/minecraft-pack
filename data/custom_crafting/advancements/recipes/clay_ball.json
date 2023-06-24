@@ -4,12 +4,25 @@
     "has_clay_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:clay" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:clay"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_clay_block"]],
+  "requirements": [
+    [
+      "has_clay_block"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:clay_ball"]
-  }
+    "recipes": [
+      "custom_crafting:clay_ball"
+    ]
+  },
+  "sends_telemetry_event": false
 }

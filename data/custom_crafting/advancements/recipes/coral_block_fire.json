@@ -4,18 +4,38 @@
     "has_coral": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:fire_coral" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:fire_coral"
+            ]
+          }
+        ]
       }
     },
     "has_fan": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:fire_coral_fan" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:fire_coral_fan"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_coral", "has_fan"]],
+  "requirements": [
+    [
+      "has_coral",
+      "has_fan"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_crafting:coral_block_fire"]
-  }
+    "recipes": [
+      "custom_crafting:coral_block_fire"
+    ]
+  },
+  "sends_telemetry_event": false
 }

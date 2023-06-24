@@ -1,9 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["CB", "BC"],
+  "pattern": [
+    "CB",
+    "BC"
+  ],
   "key": {
-    "B": { "item": "minecraft:basalt" },
-    "C": { "tag": "minecraft:coals" }
+    "B": {
+      "item": "minecraft:basalt"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    }
   },
   "result": {
     "item": "minecraft:blackstone",

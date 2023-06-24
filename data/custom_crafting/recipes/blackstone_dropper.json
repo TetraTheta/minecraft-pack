@@ -1,9 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["BBB", "B B", "BRB"],
+  "pattern": [
+    "BBB",
+    "B B",
+    "BRB"
+  ],
   "key": {
-    "B": { "item": "minecraft:blackstone" },
-    "R": { "item": "minecraft:redstone" }
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
   },
   "result": {
     "item": "minecraft:dropper",
