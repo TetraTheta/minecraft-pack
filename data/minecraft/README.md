@@ -190,21 +190,21 @@ Burried
 
 Normal
 
-- Size: 6 (← 4)
+- Size: 4
 - Tries: 7
 - Triangle Min Height: -144
 - Triangle Max Height: 44 (← 16)
 
 Burried
 
-- Size: 10 (← 8)
-- Tries: 6 (← 4)
+- Size: 9 (← 8)
+- Tries: 5 (← 4)
 - Triangle Min Height: -144
 - Triangle Max Height: 44 (← 16)
 
 Large
 
-- Size: 16 (← 12)
+- Size: 12
 - Tries: 9
 - Triangle Min Height: -144
 - Triangle Max Height: 44 (← 16)
