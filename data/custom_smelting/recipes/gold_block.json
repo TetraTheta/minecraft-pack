@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
+  "group": "group_smelt",
   "ingredient": {
     "item": "minecraft:raw_gold_block"
   },
   "result": "minecraft:gold_block",
   "experience": 7,
-  "cookingtime": 1200,
-  "group": "group_smelt"
+  "cookingtime": 1200
 }

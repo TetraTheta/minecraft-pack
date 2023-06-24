@@ -4,12 +4,25 @@
     "has_raw_copper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:raw_copper" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_raw_copper"]],
+  "requirements": [
+    [
+      "has_raw_copper"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_smelting:copper_block"]
-  }
+    "recipes": [
+      "custom_smelting:copper_block"
+    ]
+  },
+  "sends_telemetry_event": false
 }

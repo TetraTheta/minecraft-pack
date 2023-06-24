@@ -4,12 +4,25 @@
     "has_powder": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:red_concrete_powder" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:red_concrete_powder"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_powder"]],
+  "requirements": [
+    [
+      "has_powder"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_smelting:stained_glass_red"]
-  }
+    "recipes": [
+      "custom_smelting:stained_glass_red"
+    ]
+  },
+  "sends_telemetry_event": false
 }

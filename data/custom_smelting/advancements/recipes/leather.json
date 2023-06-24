@@ -4,12 +4,25 @@
     "has_flesh": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:rotten_flesh" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_flesh"]],
+  "requirements": [
+    [
+      "has_flesh"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_smelting:leather"]
-  }
+    "recipes": [
+      "custom_smelting:leather"
+    ]
+  },
+  "sends_telemetry_event": false
 }
