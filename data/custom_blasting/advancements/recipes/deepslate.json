@@ -4,12 +4,25 @@
     "has_cobbled_deepslate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:cobbled_deepslate" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_cobbled_deepslate"]],
+  "requirements": [
+    [
+      "has_cobbled_deepslate"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_blasting:deepslate"]
-  }
+    "recipes": [
+      "custom_blasting:deepslate"
+    ]
+  },
+  "sends_telemetry_event": false
 }

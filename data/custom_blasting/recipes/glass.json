@@ -1,10 +1,10 @@
 {
   "type": "minecraft:blasting",
+  "group": "fast_smelt",
   "ingredient": {
     "item": "minecraft:sand"
   },
   "result": "minecraft:glass",
   "experience": 0.1,
-  "cookingtime": 100,
-  "group": "fast_smelt"
+  "cookingtime": 100
 }

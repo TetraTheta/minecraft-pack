@@ -4,12 +4,25 @@
     "has_sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:sand" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_sand"]],
+  "requirements": [
+    [
+      "has_sand"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_blasting:glass"]
-  }
+    "recipes": [
+      "custom_blasting:glass"
+    ]
+  },
+  "sends_telemetry_event": false
 }

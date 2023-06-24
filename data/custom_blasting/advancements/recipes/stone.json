@@ -4,12 +4,25 @@
     "has_cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:cobblestone" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_cobblestone"]],
+  "requirements": [
+    [
+      "has_cobblestone"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_blasting:stone"]
-  }
+    "recipes": [
+      "custom_blasting:stone"
+    ]
+  },
+  "sends_telemetry_event": false
 }

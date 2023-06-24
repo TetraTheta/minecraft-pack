@@ -4,12 +4,25 @@
     "has_stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:stone" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_stone"]],
+  "requirements": [
+    [
+      "has_stone"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_blasting:smooth_stone"]
-  }
+    "recipes": [
+      "custom_blasting:smooth_stone"
+    ]
+  },
+  "sends_telemetry_event": false
 }

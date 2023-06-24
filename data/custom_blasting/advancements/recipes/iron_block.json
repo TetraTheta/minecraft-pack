@@ -4,12 +4,25 @@
     "has_raw_iron": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [{ "item": "minecraft:raw_iron" }]
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ]
       }
     }
   },
-  "requirements": [["has_raw_iron"]],
+  "requirements": [
+    [
+      "has_raw_iron"
+    ]
+  ],
   "rewards": {
-    "recipes": ["custom_blasting:iron_block"]
-  }
+    "recipes": [
+      "custom_blasting:iron_block"
+    ]
+  },
+  "sends_telemetry_event": false
 }
