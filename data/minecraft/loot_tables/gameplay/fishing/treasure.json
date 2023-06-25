@@ -7,26 +7,110 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 60,
-          "name": "minecraft:cod"
+          "weight": 15,
+          "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
-          "name": "minecraft:salmon"
+          "weight": 5,
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:tropical_fish"
+          "weight": 10,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 0.1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:fishing_rod"
+                ],
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:luck_of_the_sea",
+                    "levels": {
+                      "min": 2,
+                      "max": 3
+                    }
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 13,
-          "name": "minecraft:pufferfish"
+          "weight": 10,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 0.1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": true
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:fishing_rod"
+                ],
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:luck_of_the_sea",
+                    "levels": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:nautilus_shell"
         }
       ]
     }
   ],
-  "random_sequence": "minecraft:gameplay/fishing/fish"
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
 }

@@ -6,76 +6,37 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "minecraft:name_tag"
+          "quality": -2,
+          "name": "minecraft:gameplay/fishing/junk"
         },
         {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:saddle"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:bow",
-          "functions": [
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:gameplay/fishing/treasure",
+          "conditions": [
             {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 0.1
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 10,
-              "treasure": true
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "fishing_hook",
+                  "in_open_water": true
+                }
+              }
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:fishing_rod",
-          "functions": [
-            {
-              "function": "minecraft:set_damage",
-              "damage": {
-                "type": "minecraft:uniform",
-                "min": 0,
-                "max": 0.1
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 10,
-              "treasure": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 10,
-              "treasure": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:nautilus_shell"
+          "type": "minecraft:loot_table",
+          "weight": 95,
+          "quality": -1,
+          "name": "minecraft:gameplay/fishing/fish"
         }
       ]
     }
   ],
-  "random_sequence": "minecraft:gameplay/fishing/treasure"
+  "random_sequence": "minecraft:gameplay/fishing"
 }
