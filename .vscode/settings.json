@@ -8,5 +8,7 @@
   "editor.formatOnSave": true,
   "markdownlint.config": {
     "MD033": false, // no-inline-html
-  }
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true
 }
