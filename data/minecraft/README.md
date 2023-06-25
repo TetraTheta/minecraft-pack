@@ -210,3 +210,7 @@ Large
 - Triangle Max Height: 44 (← 16)
 
 </details>
+
+## Nerf Fishing
+
+I don't think getting good items from fishing is a good idea. People should explore, mine, and hunt for good items rather than sit in front of water for long periods of time.
