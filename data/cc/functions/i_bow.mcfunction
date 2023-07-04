@@ -1,1 +1,1 @@
-give @s bow{display: {Name: '{"text":"Bow","italic":false}'}, HideFlags: 4, Unbreakable: 1b, Enchantments: [{id: "minecraft:power", lvl: 5s}, {id: "minecraft:punch", lvl: 5s}, {id: "minecraft:flame", lvl: 5s}, {id: "minecraft:infinity", lvl: 1s}]} 1
+give @s bow{display:{Name:'{"translate":"item.minecraft.bow","fallback":"Bow","italic":false}'},HideFlags:4,Unbreakable:1b,Damage:50,Enchantments:[{id:"minecraft:power",lvl:5s},{id:"minecraft:punch",lvl:5s},{id:"minecraft:flame",lvl:5s},{id:"minecraft:infinity",lvl:1s}]} 1

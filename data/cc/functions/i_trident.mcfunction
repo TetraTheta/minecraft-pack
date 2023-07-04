@@ -1,1 +1,1 @@
-give @s trident{display: {Name: '{"text":"Trident","italic":false}'}, HideFlags: 4, Unbreakable: 1b, Enchantments: [{id: "minecraft:loyalty", lvl: 3s}, {id: "minecraft:impaling", lvl: 5s}, {id: "minecraft:channeling", lvl: 1s}]} 1
+give @s trident{display:{Name:'{"translate":"item.minecraft.trident","fallback":"Trident","italic":false}'},HideFlags:4,Unbreakable:1b,Damage:50,Enchantments:[{id:"minecraft:loyalty",lvl:3s},{id:"minecraft:impaling",lvl:5s},{id:"minecraft:channeling",lvl:1s}]} 1
