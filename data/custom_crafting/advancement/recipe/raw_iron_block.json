@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_copper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "custom_crafting:raw_iron_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

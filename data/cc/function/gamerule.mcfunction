@@ -1,0 +1,10 @@
+gamerule blockExplosionDropDecay false
+gamerule commandModificationBlockLimit 2147483647
+gamerule disableElytraMovementCheck true
+gamerule mobExplosionDropDecay false
+gamerule playersNetherPortalCreativeDelay 1
+gamerule playersNetherPortalDefaultDelay 5
+gamerule playersSleepingPercentage 10
+gamerule spawnChunkRadius 1
+gamerule spawnRadius 0
+gamerule tntExplosionDropDecay false

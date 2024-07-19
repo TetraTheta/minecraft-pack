@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "group": "recycling",
+  "pattern": [
+    "DRD",
+    "CRC",
+    "DRD"
+  ],
+  "key": {
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:raw_copper_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_block",
+    "count": 2
+  }
+}

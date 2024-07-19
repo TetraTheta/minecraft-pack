@@ -1,6 +1,0 @@
-gamerule blockExplosionDropDecay false
-gamerule commandModificationBlockLimit 2147483647
-gamerule disableElytraMovementCheck true
-gamerule mobExplosionDropDecay false
-gamerule playersSleepingPercentage 10
-gamerule spawnRadius 0
