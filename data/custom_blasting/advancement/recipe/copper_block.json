@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_copper_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_copper_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_copper_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "custom_blasting:copper_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}
