@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "misc",
   "group": "recycling",
   "pattern": [
     "CRC",
@@ -8,18 +8,13 @@
     "IRI"
   ],
   "key": {
-    "C": {
-      "tag": "minecraft:coals"
-    },
-    "I": {
-      "item": "minecraft:raw_iron"
-    },
-    "R": {
-      "item": "minecraft:raw_copper_block"
-    }
+    "C": "#minecraft:coals",
+    "I": "minecraft:raw_iron",
+    "R": "minecraft:raw_copper_block"
   },
   "result": {
     "id": "minecraft:raw_iron_block",
     "count": 2
-  }
+  },
+  "show_notification": false
 }

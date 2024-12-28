@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "blocks",
+  "category": "misc",
   "pattern": [
     "##",
     "##"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:flint"
-    }
+    "#": "minecraft:flint"
   },
   "result": {
     "id": "minecraft:gravel",
     "count": 1
-  }
+  },
+  "show_notification": false
 }

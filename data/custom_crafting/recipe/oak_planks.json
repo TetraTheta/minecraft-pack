@@ -1,19 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
   "ingredients": [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    }
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:stick"
   ],
   "result": {
     "id": "minecraft:oak_planks",

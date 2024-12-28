@@ -1,10 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
   "ingredients": [
-    {
-      "tag": "minecraft:wool"
-    }
+    "#minecraft:wool"
   ],
   "result": {
     "id": "minecraft:string",
