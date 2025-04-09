@@ -10,16 +10,16 @@
   "overlays": {
     "entries": [
       {
-        "directory": "1215",
-        "formats": [71, 71]
+        "directory": "1212-1213",
+        "formats": [57, 71]
       },
       {
         "directory": "1214",
         "formats": [61, 71]
       },
       {
-        "directory": "1212-1213",
-        "formats": [57, 71]
+        "directory": "1215",
+        "formats": [71, 71]
       }
     ]
   }
