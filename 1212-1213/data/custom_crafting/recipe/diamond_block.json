@@ -8,15 +8,9 @@
     "DRD"
   ],
   "key": {
-    "C": {
-      "tag": "minecraft:coals"
-    },
-    "D": {
-      "item": "minecraft:diamond"
-    },
-    "R": {
-      "item": "minecraft:raw_copper_block"
-    }
+    "C": "#minecraft:coals",
+    "D": "minecraft:diamond",
+    "R": "minecraft:raw_copper_block"
   },
   "result": {
     "id": "minecraft:diamond_block",

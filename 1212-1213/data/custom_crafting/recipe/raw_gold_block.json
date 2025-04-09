@@ -8,15 +8,9 @@
     "GRG"
   ],
   "key": {
-    "C": {
-      "tag": "minecraft:coals"
-    },
-    "G": {
-      "item": "minecraft:raw_gold"
-    },
-    "R": {
-      "item": "minecraft:raw_copper_block"
-    }
+    "C": "#minecraft:coals",
+    "G": "minecraft:raw_gold",
+    "R": "minecraft:raw_copper_block"
   },
   "result": {
     "id": "minecraft:raw_gold_block",

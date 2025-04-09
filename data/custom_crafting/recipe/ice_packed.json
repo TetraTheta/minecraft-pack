@@ -3,7 +3,9 @@
   "category": "building",
   "group": "packed_ice",
   "ingredients": [
-    "minecraft:blue_ice"
+    {
+      "item": "minecraft:blue_ice"
+    }
   ],
   "result": {
     "id": "minecraft:packed_ice",

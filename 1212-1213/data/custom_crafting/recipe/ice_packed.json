@@ -1,13 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
+  "group": "packed_ice",
   "ingredients": [
-    {
-      "item": "minecraft:quartz_block"
-    }
+    "minecraft:blue_ice"
   ],
   "result": {
-    "id": "minecraft:quartz",
-    "count": 4
+    "id": "minecraft:packed_ice",
+    "count": 9
   }
 }

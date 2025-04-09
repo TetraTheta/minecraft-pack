@@ -1,0 +1,9 @@
+*.cmd
+*.md
+.editorconfig
+.git
+.gitattributes
+.gitignore
+.gitkeep
+.vscode
+exclude.txt

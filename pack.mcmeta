@@ -1,6 +1,26 @@
 {
   "pack": {
-    "pack_format": 61,
-    "description": "Custom Commands by TetraTheta"
+    "description": "Custom Datapack made by TetraTheta (for 1.21 ~ 1.21.1)",
+    "pack_format": 48,
+    "supported_formats": [
+      48,
+      71
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1215",
+        "formats": [71, 71]
+      },
+      {
+        "directory": "1214",
+        "formats": [61, 71]
+      },
+      {
+        "directory": "1212-1213",
+        "formats": [57, 71]
+      }
+    ]
   }
 }

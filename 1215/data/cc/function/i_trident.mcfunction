@@ -1,0 +1,1 @@
+give @s trident[unbreakable={},tooltip_display={hidden_components:["unbreakable"]},rarity="epic",enchantments={"minecraft:channeling":1,"minecraft:impaling":5,"minecraft:loyalty":3},enchantment_glint_override=false] 1
