@@ -1,13 +1,13 @@
 {
   "type": "minecraft:blasting",
-  "category": "blocks",
   "group": "fast_blasting",
+  "category": "blocks",
   "ingredient": {
-    "item": "minecraft:raw_gold_block"
+    "item": "minecraft:sand"
   },
   "result": {
-    "id": "minecraft:gold_block"
+    "id": "minecraft:glass"
   },
-  "experience": 0.7,
+  "experience": 0.1,
   "cookingtime": 100
 }

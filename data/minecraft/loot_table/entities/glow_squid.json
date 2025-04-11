@@ -8,13 +8,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 1,
                 "min": 0
               },
-              "function": "minecraft:set_count"
+              "function": "minecraft:set_count",
+              "add": false
             }
           ],
           "name": "minecraft:glow_ink_sac"

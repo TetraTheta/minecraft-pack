@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_gold_block": {
+    "has_charcoal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:raw_gold_block"
+            "items": "minecraft:charcoal"
           }
         ]
       }
@@ -14,12 +14,12 @@
   },
   "requirements": [
     [
-      "has_raw_gold_block"
+      "has_charcoal"
     ]
   ],
   "rewards": {
     "recipes": [
-      "custom_blasting:gold_block"
+      "custom_crafting:coal_block"
     ]
   },
   "sends_telemetry_event": false

@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glowstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "custom_crafting:glowstone_dust"
+    ]
+  },
+  "sends_telemetry_event": false
+}

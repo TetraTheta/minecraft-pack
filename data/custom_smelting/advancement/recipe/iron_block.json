@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "custom_blasting:iron_block"
+      "custom_smelting:iron_block"
     ]
   },
   "sends_telemetry_event": false

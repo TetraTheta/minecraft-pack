@@ -1,10 +1,12 @@
 {
   "type": "minecraft:blasting",
-  "category": "blocks",
   "group": "fast_blasting",
-  "ingredient": "raw_iron_block",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:raw_copper_block"
+  },
   "result": {
-    "id": "minecraft:iron_block"
+    "id": "minecraft:copper_block"
   },
   "experience": 0.7,
   "cookingtime": 100

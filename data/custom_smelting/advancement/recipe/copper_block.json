@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "custom_blasting:copper_block"
+      "custom_smelting:copper_block"
     ]
   },
   "sends_telemetry_event": false
