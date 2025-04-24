@@ -6,4 +6,4 @@
 .gitignore
 .gitkeep
 .vscode
-exclude.txt
+exclude-data-pack.txt
