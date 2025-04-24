@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "recycling",
+  "ingredient": "minecraft:nether_wart_block",
+  "result": {
+    "id": "minecraft:nether_wart",
+    "count": 9
+  }
+}
