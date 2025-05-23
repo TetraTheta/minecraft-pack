@@ -1,5 +1,5 @@
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
-execute as @r[name=!"TetraTheta",nbt={Dimension:"minecraft:overworld"}] run summon minecraft:creeper ^ ^ ^-5 {powered:1}
+execute in minecraft:overworld as @r[name=!"TetraTheta"] at @s run summon minecraft:creeper ^ ^ ^-5 {powered:1}
 gamerule sendCommandFeedback true
 gamerule commandBlockOutput true
