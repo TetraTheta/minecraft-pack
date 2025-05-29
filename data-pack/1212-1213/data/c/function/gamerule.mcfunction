@@ -1,4 +1,5 @@
 gamerule blockExplosionDropDecay false
+gamerule commandBlockOutput false
 gamerule commandModificationBlockLimit 2147483647
 gamerule disableElytraMovementCheck true
 gamerule disablePlayerMovementCheck true
@@ -6,6 +7,7 @@ gamerule mobExplosionDropDecay false
 gamerule playersNetherPortalCreativeDelay 1
 gamerule playersNetherPortalDefaultDelay 40
 gamerule playersSleepingPercentage 10
+gamerule sendCommandFeedback false
 gamerule spawnChunkRadius 1
 gamerule spawnRadius 0
 gamerule tntExplosionDropDecay false

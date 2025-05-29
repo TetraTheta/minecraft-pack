@@ -1,5 +1,6 @@
 {
   "values": [
-    "cc:nomf_auto"
+    "c:auto/mining_fatigue",
+    "c:auto/night_vision"
   ]
 }
