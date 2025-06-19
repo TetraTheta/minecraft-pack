@@ -4,19 +4,19 @@
   "effects": {
     "minecraft:damage": [
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
             "base": 20,
             "per_level_above_first": 20
-          }
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
           }
         }
       }
@@ -32,8 +32,8 @@
     "per_level_above_first": 1000
   },
   "slots": [
-    "mainhand"
+    "hand"
   ],
-  "supported_items": "#e:enchantable/bow",
+  "supported_items": "#e:enchantable/bowlike",
   "weight": 1
 }
