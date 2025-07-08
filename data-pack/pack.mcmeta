@@ -4,22 +4,26 @@
     "pack_format": 48,
     "supported_formats": [
       48,
-      71
+      81
     ]
   },
   "overlays": {
     "entries": [
       {
         "directory": "1212-1213",
-        "formats": [57, 71]
+        "formats": [57, 81]
       },
       {
         "directory": "1214",
-        "formats": [61, 71]
+        "formats": [61, 81]
       },
       {
         "directory": "1215",
-        "formats": [71, 71]
+        "formats": [71, 81]
+      },
+      {
+        "directory": "1217",
+        "formats": [80, 81]
       }
     ]
   }
