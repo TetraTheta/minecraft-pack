@@ -1,1 +1,5 @@
-kill @e[type=!minecraft:player,type=!minecraft:villager,type=!minecraft:glow_item_frame,type=!minecraft:item_frame,type=!minecraft:leash_knot,name=!"DONOTKILL",tag=!DONOTKILL]
+kill @e[type=#c:mobs_passive]
+kill @e[type=#c:mobs_neutral]
+kill @e[type=#c:mobs_hostile]
+kill @e[type=#c:mobs_unused]
+kill @e[type=#c:misc]

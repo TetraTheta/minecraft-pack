@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:giant",
+    "minecraft:illusioner",
+    "minecraft:zombie_horse"
+  ]
+}
