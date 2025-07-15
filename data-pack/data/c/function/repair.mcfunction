@@ -1,0 +1,43 @@
+# Hotbar
+item modify entity @s hotbar.0 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.1 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.2 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.3 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.4 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.5 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.6 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.7 {function:"minecraft:set_damage","damage":100}
+item modify entity @s hotbar.8 {function:"minecraft:set_damage","damage":100}
+# Inventory
+item modify entity @s inventory.0 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.1 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.2 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.3 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.4 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.5 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.6 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.7 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.8 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.9 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.10 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.11 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.12 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.13 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.14 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.15 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.16 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.17 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.18 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.19 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.20 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.21 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.22 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.23 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.24 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.25 {function:"minecraft:set_damage","damage":100}
+item modify entity @s inventory.26 {function:"minecraft:set_damage","damage":100}
+# Armor
+item modify entity @s armor.head {function:"minecraft:set_damage","damage":100}
+item modify entity @s armor.chest {function:"minecraft:set_damage","damage":100}
+item modify entity @s armor.legs {function:"minecraft:set_damage","damage":100}
+item modify entity @s armor.feet {function:"minecraft:set_damage","damage":100}
