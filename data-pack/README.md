@@ -4,7 +4,12 @@ This data pack is designed for personal use.
 
 ## Supported Minecraft version
 
-1.21 ~ 1.21.5
+* 1.21
+* 1.21.1
+* 1.21.2
+* 1.21.3
+* 1.21.4
+* 1.21.5
 
 ## Namespace Description
 
