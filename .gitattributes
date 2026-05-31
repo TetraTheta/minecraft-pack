@@ -1,1 +1,3 @@
-*.mcfunction eol=crlf
+*.json eol=lf
+*.mcfunction eol=lf
+*.mcmeta eol=lf

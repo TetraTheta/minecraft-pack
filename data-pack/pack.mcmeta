@@ -1,29 +1,54 @@
 {
   "pack": {
-    "description": "Custom Datapack made by TetraTheta (for 1.21 ~ 1.21.1)",
+    "description": "Custom Datapack made by TetraTheta (for 1.21 ~ 26.1.2)",
     "pack_format": 48,
-    "supported_formats": [
-      48,
-      81
-    ]
+    "supported_formats": [48, 101],
+    "min_format": 48,
+    "max_format": [101, 1]
   },
   "overlays": {
     "entries": [
       {
-        "directory": "1212-1213",
-        "formats": [57, 81]
+        "directory": "1_21_3",
+        "formats": [57, 101],
+        "min_format": 57,
+        "max_format": [101, 1]
       },
       {
-        "directory": "1214",
-        "formats": [61, 81]
+        "directory": "1_21_4",
+        "formats": [61, 101],
+        "min_format": 61,
+        "max_format": [101, 1]
       },
       {
-        "directory": "1215",
-        "formats": [71, 81]
+        "directory": "1_21_5",
+        "formats": [71, 101],
+        "min_format": 71,
+        "max_format": [101, 1]
       },
       {
-        "directory": "1217",
-        "formats": [80, 81]
+        "directory": "1_21_8",
+        "formats": [80, 101],
+        "min_format": 80,
+        "max_format": [101, 1]
+      },
+      {
+        "directory": "1_21_10",
+        "formats": [88, 101],
+        "min_format": 88,
+        "max_format": [101, 1]
+      },
+      {
+        "directory": "1_21_11",
+        "formats": [94, 101],
+        "min_format": [94, 1],
+        "max_format": [101, 1]
+      },
+      {
+        "directory": "26_1_2",
+        "formats": [101, 101],
+        "min_format": [101, 1],
+        "max_format": [101, 1]
       }
     ]
   }

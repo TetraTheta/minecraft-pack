@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "recycling",
+  "ingredient": "#minecraft:wool",
+  "result": {
+    "id": "minecraft:string",
+    "count": 4
+  }
+}

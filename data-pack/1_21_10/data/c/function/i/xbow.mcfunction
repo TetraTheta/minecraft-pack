@@ -1,0 +1,1 @@
+give @s crossbow[unbreakable={},tooltip_display={hidden_components:["unbreakable","attribute_modifiers"]},rarity="epic",enchantments={"flame":1,"power":5,"punch":2,"quick_charge":5,"piercing":4,"infinity":1},enchantment_glint_override=false,attribute_modifiers=[{id:"ccbow1",type:"luck",amount:1.5,operation:"add_multiplied_total",slot:"hand"}]] 1
