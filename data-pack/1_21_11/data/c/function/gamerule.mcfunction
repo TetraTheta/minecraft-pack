@@ -3,6 +3,7 @@ gamerule command_block_output false
 gamerule elytra_movement_check false
 gamerule max_block_modifications 2147483647
 gamerule mob_explosion_drop_decay false
+gamerule player_movement_check false
 gamerule players_nether_portal_creative_delay 1
 gamerule players_nether_portal_default_delay 40
 gamerule players_sleeping_percentage 10
