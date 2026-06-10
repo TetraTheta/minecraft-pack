@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "compactresources:item/compressed/raw_iron_block_x9"
+  }
+}

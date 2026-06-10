@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "compactresources:item/compressed/dirt_x729"
+  }
+}

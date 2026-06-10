@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "compactresources:item/compressed/gold_block_x729"
+  }
+}
