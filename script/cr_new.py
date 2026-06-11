@@ -7,7 +7,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_RESOURCE_PACK_DIR = REPO_ROOT / "resource-pack" / "compact-resources-pack"
-CUSTOM_MODEL_DATA_ITEM = "heart_of_the_sea"
 NAMESPACE = "compactresources"
 COMPRESSED_ITEM_DIR = "item/compressed"
 CONFIG_FILE_NAME = "config.json"
@@ -34,7 +33,7 @@ class TextureSet:
 
 def parse_args() -> CliArgs:
     parser = argparse.ArgumentParser(
-        description="압축된 블록 아이템용 텍스처, 모델 JSON, custom_model_data 연결을 생성합니다."
+        description="압축된 블록 아이템용 텍스처, 모델 JSON, item_model 정의를 생성합니다."
     )
     parser.add_argument("-i", "--input-dir", type=Path, required=True, help="새 PNG 텍스처가 있는 디렉토리")
     parser.add_argument(
@@ -137,19 +136,19 @@ def process_with_ffmpeg(texture_files: set[Path], output_dir: Path) -> None:
             subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
 
 
-def write_model_files(blocks: dict[str, TextureSet], output_dir: Path) -> list[JsonObject]:
+def write_model_files(blocks: dict[str, TextureSet], output_dir: Path) -> None:
     model_dir = output_dir / "assets" / NAMESPACE / "models" / "item" / "compressed"
+    item_definition_dir = output_dir / "assets" / NAMESPACE / "items" / "item" / "compressed"
     model_dir.mkdir(parents=True, exist_ok=True)
-    cases: list[JsonObject] = []
+    item_definition_dir.mkdir(parents=True, exist_ok=True)
 
     for block_name, texture_set in sorted(blocks.items()):
         for suffix in ("x9", "x81", "x729"):
             model_name = f"{block_name}_{suffix}"
             model_path = model_dir / f"{model_name}.json"
+            item_definition_path = item_definition_dir / f"{model_name}.json"
             write_json(model_path, build_model_json(texture_set, suffix))
-            cases.append(build_custom_model_case(block_name, suffix))
-
-    return cases
+            write_json(item_definition_path, build_item_definition_json(model_name))
 
 
 def build_model_json(texture_set: TextureSet, suffix: str) -> JsonObject:
@@ -190,34 +189,13 @@ def build_texture_reference(texture_file: Path, suffix: str) -> str:
     return f"{NAMESPACE}:{COMPRESSED_ITEM_DIR}/{texture_file.stem}_{suffix}"
 
 
-def build_custom_model_case(block_name: str, suffix: str) -> JsonObject:
+def build_item_definition_json(model_name: str) -> JsonObject:
     return {
-        "when": f"{NAMESPACE}:{block_name}/{suffix}",
         "model": {
             "type": "minecraft:model",
-            "model": f"{NAMESPACE}:{COMPRESSED_ITEM_DIR}/{block_name}_{suffix}",
+            "model": f"{NAMESPACE}:{COMPRESSED_ITEM_DIR}/{model_name}",
         },
     }
-
-
-def update_custom_model_data(output_dir: Path, new_cases: list[JsonObject]) -> None:
-    item_model_path = output_dir / "assets" / "minecraft" / "items" / f"{CUSTOM_MODEL_DATA_ITEM}.json"
-
-    with item_model_path.open(encoding="utf-8") as file:
-        raw_item_model: object = json.load(file)
-
-    item_model = require_json_object(raw_item_model, item_model_path)
-    model = require_json_object(item_model.get("model"), item_model_path)
-    cases = require_json_list(model.get("cases"), item_model_path)
-    existing_when_values = collect_when_values(cases)
-
-    for new_case in new_cases:
-        when_value = new_case["when"]
-        if isinstance(when_value, str) and when_value not in existing_when_values:
-            cases.append(new_case)
-            existing_when_values.add(when_value)
-
-    write_json(item_model_path, item_model)
 
 
 def require_json_object(value: object, file_path: Path) -> JsonObject:
@@ -225,26 +203,6 @@ def require_json_object(value: object, file_path: Path) -> JsonObject:
         raise ValueError(f"JSON 객체 구조가 아닙니다: {file_path}")
 
     return value
-
-
-def require_json_list(value: object, file_path: Path) -> list[JsonValue]:
-    if not isinstance(value, list):
-        raise ValueError(f"JSON 배열 구조가 아닙니다: {file_path}")
-
-    return value
-
-
-def collect_when_values(cases: list[JsonValue]) -> set[str]:
-    when_values: set[str] = set()
-    for case in cases:
-        if not isinstance(case, dict):
-            continue
-
-        when_value = case.get("when")
-        if isinstance(when_value, str):
-            when_values.add(when_value)
-
-    return when_values
 
 
 def write_json(file_path: Path, data: JsonValue) -> None:
@@ -269,8 +227,7 @@ def run(input_dir: Path, config_file: Path | None, output_dir: Path) -> None:
     texture_files = {texture_file for texture_set in blocks.values() for texture_file in texture_set.texture_files()}
 
     process_with_ffmpeg(texture_files, texture_output_dir)
-    new_cases = write_model_files(blocks, output_dir)
-    update_custom_model_data(output_dir, new_cases)
+    write_model_files(blocks, output_dir)
     print("압축된 블록 아이템 리소스 생성 완료!")
 
 
