@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "compactresources:item/compressed/diorite_x729"
+  }
+}

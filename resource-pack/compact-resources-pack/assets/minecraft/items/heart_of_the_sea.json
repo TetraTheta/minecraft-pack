@@ -1,348 +1,663 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "compactresources:cobblestone/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/cobblestone_x9"
-        }
+          "model": "compactresources:item/compressed/amethyst_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:amethyst_block/x9"
       },
       {
-        "when": "compactresources:cobblestone/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/cobblestone_x81"
-        }
+          "model": "compactresources:item/compressed/amethyst_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:amethyst_block/x81"
       },
       {
-        "when": "compactresources:cobblestone/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/cobblestone_x729"
-        }
+          "model": "compactresources:item/compressed/amethyst_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:amethyst_block/x729"
       },
       {
-        "when": "compactresources:stone/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/stone_x9"
-        }
+          "model": "compactresources:item/compressed/andesite_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:andesite/x9"
       },
       {
-        "when": "compactresources:stone/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/stone_x81"
-        }
+          "model": "compactresources:item/compressed/andesite_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:andesite/x81"
       },
       {
-        "when": "compactresources:stone/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/stone_x729"
-        }
+          "model": "compactresources:item/compressed/andesite_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:andesite/x729"
       },
       {
-        "when": "compactresources:cobbled_deepslate/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/cobbled_deepslate_x9"
-        }
+          "model": "compactresources:item/compressed/basalt_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:basalt/x9"
       },
       {
-        "when": "compactresources:cobbled_deepslate/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/cobbled_deepslate_x81"
-        }
+          "model": "compactresources:item/compressed/basalt_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:basalt/x81"
       },
       {
-        "when": "compactresources:cobbled_deepslate/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/cobbled_deepslate_x729"
-        }
+          "model": "compactresources:item/compressed/basalt_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:basalt/x729"
       },
       {
-        "when": "compactresources:deepslate/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/deepslate_x9"
-        }
+          "model": "compactresources:item/compressed/blackstone_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:blackstone/x9"
       },
       {
-        "when": "compactresources:deepslate/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/deepslate_x81"
-        }
+          "model": "compactresources:item/compressed/blackstone_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:blackstone/x81"
       },
       {
-        "when": "compactresources:deepslate/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/deepslate_x729"
-        }
+          "model": "compactresources:item/compressed/blackstone_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:blackstone/x729"
       },
       {
-        "when": "compactresources:dirt/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/dirt_x9"
-        }
+          "model": "compactresources:item/compressed/calcite_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:calcite/x9"
       },
       {
-        "when": "compactresources:dirt/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/dirt_x81"
-        }
+          "model": "compactresources:item/compressed/calcite_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:calcite/x81"
       },
       {
-        "when": "compactresources:dirt/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/dirt_x729"
-        }
+          "model": "compactresources:item/compressed/calcite_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:calcite/x729"
       },
       {
-        "when": "compactresources:sand/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/sand_x9"
-        }
+          "model": "compactresources:item/compressed/clay_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:clay/x9"
       },
       {
-        "when": "compactresources:sand/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/sand_x81"
-        }
+          "model": "compactresources:item/compressed/clay_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:clay/x81"
       },
       {
-        "when": "compactresources:sand/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/sand_x729"
-        }
+          "model": "compactresources:item/compressed/clay_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:clay/x729"
       },
       {
-        "when": "compactresources:gravel/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/gravel_x9"
-        }
+          "model": "compactresources:item/compressed/coal_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:coal_block/x9"
       },
       {
-        "when": "compactresources:gravel/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/gravel_x81"
-        }
+          "model": "compactresources:item/compressed/coal_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:coal_block/x81"
       },
       {
-        "when": "compactresources:gravel/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/gravel_x729"
-        }
+          "model": "compactresources:item/compressed/coal_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:coal_block/x729"
       },
       {
-        "when": "compactresources:clay/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/clay_x9"
-        }
+          "model": "compactresources:item/compressed/cobbled_deepslate_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:cobbled_deepslate/x9"
       },
       {
-        "when": "compactresources:clay/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/clay_x81"
-        }
+          "model": "compactresources:item/compressed/cobbled_deepslate_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:cobbled_deepslate/x81"
       },
       {
-        "when": "compactresources:clay/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/clay_x729"
-        }
+          "model": "compactresources:item/compressed/cobbled_deepslate_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:cobbled_deepslate/x729"
       },
       {
-        "when": "compactresources:coal_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/coal_block_x9"
-        }
+          "model": "compactresources:item/compressed/cobblestone_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:cobblestone/x9"
       },
       {
-        "when": "compactresources:coal_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/coal_block_x81"
-        }
+          "model": "compactresources:item/compressed/cobblestone_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:cobblestone/x81"
       },
       {
-        "when": "compactresources:coal_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/coal_block_x729"
-        }
+          "model": "compactresources:item/compressed/cobblestone_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:cobblestone/x729"
       },
       {
-        "when": "compactresources:raw_copper_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_copper_block_x9"
-        }
+          "model": "compactresources:item/compressed/copper_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:copper_block/x9"
       },
       {
-        "when": "compactresources:raw_copper_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_copper_block_x81"
-        }
+          "model": "compactresources:item/compressed/copper_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:copper_block/x81"
       },
       {
-        "when": "compactresources:raw_copper_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_copper_block_x729"
-        }
+          "model": "compactresources:item/compressed/copper_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:copper_block/x729"
       },
       {
-        "when": "compactresources:raw_iron_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_iron_block_x9"
-        }
+          "model": "compactresources:item/compressed/deepslate_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:deepslate/x9"
       },
       {
-        "when": "compactresources:raw_iron_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_iron_block_x81"
-        }
+          "model": "compactresources:item/compressed/deepslate_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:deepslate/x81"
       },
       {
-        "when": "compactresources:raw_iron_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_iron_block_x729"
-        }
+          "model": "compactresources:item/compressed/deepslate_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:deepslate/x729"
       },
       {
-        "when": "compactresources:raw_gold_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_gold_block_x9"
-        }
+          "model": "compactresources:item/compressed/diamond_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:diamond_block/x9"
       },
       {
-        "when": "compactresources:raw_gold_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_gold_block_x81"
-        }
+          "model": "compactresources:item/compressed/diamond_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:diamond_block/x81"
       },
       {
-        "when": "compactresources:raw_gold_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/raw_gold_block_x729"
-        }
+          "model": "compactresources:item/compressed/diamond_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:diamond_block/x729"
       },
       {
-        "when": "compactresources:copper_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/copper_block_x9"
-        }
+          "model": "compactresources:item/compressed/diorite_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:diorite/x9"
       },
       {
-        "when": "compactresources:copper_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/copper_block_x81"
-        }
+          "model": "compactresources:item/compressed/diorite_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:diorite/x81"
       },
       {
-        "when": "compactresources:copper_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/copper_block_x729"
-        }
+          "model": "compactresources:item/compressed/diorite_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:diorite/x729"
       },
       {
-        "when": "compactresources:iron_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/iron_block_x9"
-        }
+          "model": "compactresources:item/compressed/dirt_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:dirt/x9"
       },
       {
-        "when": "compactresources:iron_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/iron_block_x81"
-        }
+          "model": "compactresources:item/compressed/dirt_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:dirt/x81"
       },
       {
-        "when": "compactresources:iron_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/iron_block_x729"
-        }
+          "model": "compactresources:item/compressed/dirt_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:dirt/x729"
       },
       {
-        "when": "compactresources:gold_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/gold_block_x9"
-        }
+          "model": "compactresources:item/compressed/end_stone_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:end_stone/x9"
       },
       {
-        "when": "compactresources:gold_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/gold_block_x81"
-        }
+          "model": "compactresources:item/compressed/end_stone_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:end_stone/x81"
       },
       {
-        "when": "compactresources:gold_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/gold_block_x729"
-        }
+          "model": "compactresources:item/compressed/end_stone_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:end_stone/x729"
       },
       {
-        "when": "compactresources:netherite_block/x9",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/netherite_block_x9"
-        }
+          "model": "compactresources:item/compressed/gold_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:gold_block/x9"
       },
       {
-        "when": "compactresources:netherite_block/x81",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/netherite_block_x81"
-        }
+          "model": "compactresources:item/compressed/gold_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:gold_block/x81"
       },
       {
-        "when": "compactresources:netherite_block/x729",
         "model": {
-          "type": "minecraft:model",
-          "model": "compactresources:item/compressed/netherite_block_x729"
-        }
+          "model": "compactresources:item/compressed/gold_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:gold_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/granite_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:granite/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/granite_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:granite/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/granite_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:granite/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/gravel_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:gravel/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/gravel_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:gravel/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/gravel_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:gravel/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/iron_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:iron_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/iron_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:iron_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/iron_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:iron_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/lapis_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:lapis_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/lapis_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:lapis_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/lapis_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:lapis_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/netherite_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:netherite_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/netherite_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:netherite_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/netherite_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:netherite_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/netherrack_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:netherrack/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/netherrack_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:netherrack/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/netherrack_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:netherrack/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/quartz_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:quartz_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/quartz_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:quartz_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/quartz_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:quartz_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_copper_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_copper_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_copper_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_copper_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_copper_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_copper_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_gold_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_gold_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_gold_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_gold_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_gold_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_gold_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_iron_block_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_iron_block/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_iron_block_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_iron_block/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/raw_iron_block_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:raw_iron_block/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/sand_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:sand/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/sand_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:sand/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/sand_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:sand/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/soul_sand_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:soul_sand/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/soul_sand_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:soul_sand/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/soul_sand_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:soul_sand/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/soul_soil_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:soul_soil/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/soul_soil_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:soul_soil/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/soul_soil_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:soul_soil/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/stone_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:stone/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/stone_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:stone/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/stone_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:stone/x729"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/tuff_x9",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:tuff/x9"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/tuff_x81",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:tuff/x81"
+      },
+      {
+        "model": {
+          "model": "compactresources:item/compressed/tuff_x729",
+          "type": "minecraft:model"
+        },
+        "when": "compactresources:tuff/x729"
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/heart_of_the_sea"
-    }
+      "model": "minecraft:item/heart_of_the_sea",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:custom_model_data",
+    "type": "minecraft:select"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "basalt": {
+    "bottom": "basalt_top.png",
+    "side": "basalt_side.png",
+    "top": "basalt_top.png"
+  },
+  "blackstone": {
+    "bottom": "blackstone_top.png",
+    "side": "blackstone.png",
+    "top": "blackstone_top.png"
+  },
+  "quartz_block": {
+    "bottom": "quartz_block_bottom.png",
+    "side": "quartz_block_side.png",
+    "top": "quartz_block_top.png"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "compactresources:item/compressed/quartz_block_bottom_x729",
+    "side": "compactresources:item/compressed/quartz_block_side_x729",
+    "top": "compactresources:item/compressed/quartz_block_top_x729"
+  }
+}

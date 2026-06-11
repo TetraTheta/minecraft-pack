@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "compactresources:item/compressed/blackstone_top_x9",
+    "side": "compactresources:item/compressed/blackstone_x9"
+  }
+}
