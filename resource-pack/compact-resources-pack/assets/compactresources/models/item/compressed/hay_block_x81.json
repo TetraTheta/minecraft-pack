@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "compactresources:item/compressed/hay_block_top_x81",
+    "side": "compactresources:item/compressed/hay_block_side_x81"
+  }
+}

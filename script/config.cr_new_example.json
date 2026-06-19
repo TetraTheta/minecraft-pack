@@ -14,6 +14,11 @@
     "side": "bone_block_side.png",
     "top": "bone_block_top.png"
   },
+  "hay_block": {
+    "bottom": "hay_block_top.png",
+    "side": "hay_block_side.png",
+    "top": "hay_block_top.png"
+  },
   "quartz_block": {
     "bottom": "quartz_block_bottom.png",
     "side": "quartz_block_side.png",
