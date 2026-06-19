@@ -9,6 +9,11 @@
     "side": "blackstone.png",
     "top": "blackstone_top.png"
   },
+  "bone_block": {
+    "bottom": "bone_block_top.png",
+    "side": "bone_block_side.png",
+    "top": "bone_block_top.png"
+  },
   "quartz_block": {
     "bottom": "quartz_block_bottom.png",
     "side": "quartz_block_side.png",
