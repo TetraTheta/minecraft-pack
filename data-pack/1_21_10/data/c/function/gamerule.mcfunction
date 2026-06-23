@@ -8,6 +8,6 @@ gamerule mobExplosionDropDecay false
 gamerule playersNetherPortalCreativeDelay 1
 gamerule playersNetherPortalDefaultDelay 40
 gamerule playersSleepingPercentage 10
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 gamerule spawnRadius 0
 gamerule tntExplosionDropDecay false

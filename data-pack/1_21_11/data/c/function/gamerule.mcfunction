@@ -8,5 +8,5 @@ gamerule players_nether_portal_creative_delay 1
 gamerule players_nether_portal_default_delay 40
 gamerule players_sleeping_percentage 10
 gamerule respawn_radius 0
-gamerule send_command_feedback false
+gamerule send_command_feedback true
 gamerule tnt_explosion_drop_decay false
